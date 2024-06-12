@@ -3,46 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minha Página com Widget</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Página com Iframe</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1><img src="C:\projects\chatbot\logo.37cf366.png" alt="Logo LabEt"></h1>
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Serviços</a></li>
-                    <li><a href="#">Contato</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    
-    <section class="hero">
-        <!-- <img src="C:\projects\chatbot\B2C_Consulta-GOV-Banner-desk-06-05.6064686.jpg" alt="Banner" class="banner"> -->
-        <div class="container">
-            <h2>Bem-vindo à LabEt</h2>
-        </div>
-    </section>
-    
-    <section class="content">
-        <div class="container">
-            <h3>Exame Toxicológico para motoristas com CNH C, D e E</h3>
-            <p>Descrição detalhada dos serviços oferecidos.</p>
-            <img src="servicos.png" alt="Imagem dos Serviços">
-            <button>Saiba Mais</button>
-        </div>
-    </section>
-    
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 LabEt. Todos os direitos reservados.</p>
-        </div>
-    </footer>
-    
-    <script async src="https://app.gptmaker.ai/widget/3CB49034756B05205E595EE035A45C02/float.js"></script>
+    <iframe 
+        src="https://app.gptmaker.ai/widget/3CB49034756B05205E595EE035A45C02/iframe" 
+        frameborder="0">
+    </iframe>
 </body>
 </html>
